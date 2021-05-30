@@ -26,7 +26,9 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
     9. compile the model
 6. Then, the summary of the model is viewed and fit to a model to start training (batch size= 800, epochs=15)
 7. PlotLossesKeras() function is used to view our training in real-time. And the model is evaluated.
- *pic of the graph
+
+<div align=”center”><img src="https://user-images.githubusercontent.com/85062756/120108193-b2907980-c196-11eb-8645-18fa39224d3a.png" width="500" height="400" /><div>
+
  8. Then, the F-1 score, Accuracy, Precision & Recall is calculated.
  9. The Cohens Kappa Score, ROC AUC Score, and confusion matrix is displayed.
  10. The model will then be saved for image detection in testing phase.
