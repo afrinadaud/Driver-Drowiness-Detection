@@ -7,7 +7,7 @@ Driver drowsiness detection is a form of car safety technology and is used to pr
 
 ## How the code works?
 
-Dataset is obtained here [I'm an inline-style link with title](https://www.kaggle.com/prasadvpatil/mrl-dataset "Dataset")
+Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset "Dataset")
 
 ## Training Part
 1. Images are loaded from any folder to specify, resize them to 80x80 and loaded into an 'image' array.
