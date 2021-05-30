@@ -25,7 +25,12 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
     8. add the output dense layer with sigmoid activation function
     9. compile the model
 6. Then, the summary of the model is viewed and fit to a model to start training (batch size= 800, epochs=15)
-7. PlotLossesKeras() function is used to view our training in real-time. And the model is evaluated.
+
+<p align="center">
+     <img src="https://user-images.githubusercontent.com/85062756/120108439-b2dd4480-c197-11eb-93ce-e59a5b2eab80.png" width="500" height="400" />
+</p>
+    
+8. PlotLossesKeras() function is used to view our training in real-time. And the model is evaluated.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/85062756/120108193-b2907980-c196-11eb-8645-18fa39224d3a.png" width="500" height="400" />
@@ -33,7 +38,13 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
 
  8. Then, the F-1 score, Accuracy, Precision & Recall is calculated.
  9. The Cohens Kappa Score, ROC AUC Score, and confusion matrix is displayed.
- 10. The model will then be saved for image detection in testing phase.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/85062756/120108503-fc2d9400-c197-11eb-90d0-c1bb1e3a56a1.png" width="500" height="400" />
+</p>
+
+
+ 11. The model will then be saved for image detection in testing phase.
 
 ## Testing Part: Real-time Image Detection
 1. Modules playsound, CMake, face_recognition and soundevice is installed.
