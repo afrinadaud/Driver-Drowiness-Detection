@@ -52,8 +52,8 @@ Driver drowsiness detection is a form of car safety technology and is used to pr
 ## How to run it?
 
 Image Detection
-1. Choose to record your own alarm or use a default one.
-2. 
+1. Run the Drowsiness_Detection_3.ipynb 
+2. Choose to record your own alarm or use a default one
 
 ## Result
 
