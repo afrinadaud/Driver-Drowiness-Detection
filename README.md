@@ -73,7 +73,19 @@ Image Detection
 
 ## Result
 
-<img src="https://user-images.githubusercontent.com/85062756/120106400-5ece6200-c18f-11eb-93ea-bc892dd6a2d4.png" width="300" height="400" />
-<img src="https://user-images.githubusercontent.com/85062756/120105676-912a9000-c18c-11eb-883c-5fe43a9dd587.png" width="300" height="400" />
-<img src="https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png" width="300" height="400" />
+1. When the eyes are opened, the state of the driver will be declared as Active. It means that the driver is awake, hence no alarm sound will be played.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/85062756/120106400-5ece6200-c18f-11eb-93ea-bc892dd6a2d4.png" width="300" height="400" />
+ </p>
+ 
+ 2. It is still declared as ‘Active’ because closed eye detection is considered a blink.
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/85062756/120105676-912a9000-c18c-11eb-883c-5fe43a9dd587.png" width="300" height="400" />
+</p>
+
+3.  Eyes have been closed for 3 loops, so it is not classified as a blink anymore. The driver is considered sleeping. Whichever alarm we have chosen will play until our eyes reopen. Then, the counter is set to 1 again.
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png" width="300" height="400" />
+</p>
 
