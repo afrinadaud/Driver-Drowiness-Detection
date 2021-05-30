@@ -40,7 +40,7 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
  9. The Cohens Kappa Score, ROC AUC Score, and confusion matrix is displayed.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/85062756/120108503-fc2d9400-c197-11eb-90d0-c1bb1e3a56a1.png" width="500" height="400" />
+    <img src="https://user-images.githubusercontent.com/85062756/120108503-fc2d9400-c197-11eb-90d0-c1bb1e3a56a1.png" width="400" height="200" />
 </p>
 
 
