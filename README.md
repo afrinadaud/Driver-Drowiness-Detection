@@ -12,10 +12,11 @@ Driver drowsiness detection is a form of car safety technology and is used to pr
 ## Result
 
           
-<img src="https://user-images.githubusercontent.com/85062756/120105661-8112b080-c18c-11eb-9581-72211dc27b85.png" width="200" height="400" />
+<img src="https://user-images.githubusercontent.com/85062756/120105661-8112b080-c18c-11eb-9581-72211dc27b85.png" width="400" height="400" />
 
-![unnamed](https://user-images.githubusercontent.com/85062756/120105676-912a9000-c18c-11eb-883c-5fe43a9dd587.png)
+<img src="https://user-images.githubusercontent.com/85062756/120105676-912a9000-c18c-11eb-883c-5fe43a9dd587.png" width="400" height="400" />
 
-![Screenshot 2021-05-29 at 7 10 36 PM](https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png)
+<img src="https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png" width="400" height="400" />
+
 
 
