@@ -95,5 +95,5 @@ Image Detection
 </p>
 
 <p align="center">
-    ![](https://user-images.githubusercontent.com/85062756/120108805-50854380-c199-11eb-81ff-273efcb4cf3d.gif)
+    <img src="https://user-images.githubusercontent.com/85062756/120108805-50854380-c199-11eb-81ff-273efcb4cf3d.gif"/>
 </p>
