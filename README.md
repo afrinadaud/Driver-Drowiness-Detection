@@ -58,9 +58,7 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
 6. Continuous frames are captured by the webcam to send to the eye_cropper function.
 7. Images are scaled, reshaped and resized into the model.
 8. Prediction is done and class of the Eyes are decided based on the prediction (closed eyes = of the range of 0.4 - 0.9 ++, Open eyes = of the range of less than 0.001)
-
-***The prediction threshold for detecting the opening and closing of the eyes has been set to 0.4. When we carried out the testing, this value was sufficient to be highly sensitive in the detection of the open/closed state of the eyes. However, it has also happened that this value is too high for the prediction. Sometimes it occurs that the prediction for open eyes is of the order of 1 x e-05 and closed eyes is around 0.001 ++. This still gives the relative difference between the 2 predictions of around the order of 1000. In this case, the value of the prediction threshold should be changed to 0.001 for the model to work effectively.***
-
+***The prediction threshold for detecting the opening and closing of the eyes has been set to 0.4. When we carried out the testing, this value was sufficient to be highly sensitive in the detection of the open/closed state of the eyes. However, it has also happened that this value is too high for the prediction. Sometimes it occurs that the prediction for open eyes is of the order of 1 x e-05 and closed eyes is around 0.001 ++. This still gives the relative difference between the 2 predictions of around the order of 1000. In this case, the value of the prediction threshold should be changed to 0.001 for the model to work effectively.
 10. When the eyes are opened, the state of the driver will be declared as Active. It means that the driver is awake, hence no alarm sound will be played. 
 11. When the eyes are closed, the counter is increased by 1. However, it is still declared as ‘Active’ because closed eye detection is considered a blink. 
 12. If the value of the counter is larger than 3 (meaning that the else statement has executed three times). This means the eyes have been closed for 3 loops, so it is not classified as a blink anymore. The driver is considered sleeping. It will be declared as ‘Driver Sleeping’ in the middle of the screen. Whichever alarm we have chosen will play until our eyes reopen. 
@@ -94,3 +92,4 @@ Image Detection
     <img src="https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png" width="300" height="400" />
 </p>
 
+![](https://user-images.githubusercontent.com/85062756/120108805-50854380-c199-11eb-81ff-273efcb4cf3d.gif)
