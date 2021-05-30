@@ -72,9 +72,12 @@ Dataset is obtained from [here](https://www.kaggle.com/prasadvpatil/mrl-dataset 
 
 ## How to run it?
 
-Image Detection
-1. Choose to record your own alarm or use a default one.
-2. 
+Real-time Image Detection
+1. Run the Drowsiness_Detection_3.ipynb code.
+2. Choose to record your own alarm or use a default one.
+3. Webcam initiated and the image detection is executed to detect and display if the driver is asleep or not.
+4. Alarm sound will go off if they are asleep.
+5. 27 or Escape key to exit the application.
 
 ## Result
 
