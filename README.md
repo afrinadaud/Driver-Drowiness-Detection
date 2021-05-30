@@ -49,8 +49,11 @@ Driver drowsiness detection is a form of car safety technology and is used to pr
 13. 27 or the Escape key is our exit key. 
 14. Lastly, we let go of the webcam and close the application.
 
-
 ## How to run it?
+
+Image Detection
+1. Choose to record your own alarm or use a default one.
+2. 
 
 ## Result
 
