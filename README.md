@@ -98,3 +98,7 @@ Image Detection
 <p align="center">
     <img src="https://user-images.githubusercontent.com/85062756/120108805-50854380-c199-11eb-81ff-273efcb4cf3d.gif"/>
 </p>
+
+## Conclusion
+
+This project has successfully utilised the appropriate data mining method to train the model to analyse and determine the status of the eyes whether they are opened or closed by using Convolutional Neural Network (CNN). The Convolutional Neural Network (CNN) technique is chosen as it is the best model to train data and predict the output. From the implementation of this project, we are able to analyse whether the driver is drowsy or not. However, there is a slight delay in obtaining the output, hence, it can be improved further for higher real-time accuracy.
