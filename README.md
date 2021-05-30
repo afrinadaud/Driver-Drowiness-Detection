@@ -94,6 +94,7 @@ Image Detection
     <img src="https://user-images.githubusercontent.com/85062756/120105697-a30c3300-c18c-11eb-8bc6-08294a1f4984.png" width="300" height="400" />
 </p>
 
+## Final Demo
 <p align="center">
     <img src="https://user-images.githubusercontent.com/85062756/120108805-50854380-c199-11eb-81ff-273efcb4cf3d.gif"/>
 </p>
